@@ -1,0 +1,18 @@
+.CarImg{
+    margin-left: 10px;
+    margin-top: 10px;
+
+
+}
+
+.CarImg:hover{
+    animation: anim 2s linear 0s 1 normal forwards;
+}
+
+@keyframes anim{
+
+
+    100%{
+        transform: scale(1.05);
+    }
+}
